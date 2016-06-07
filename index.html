@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/libs.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/bower/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+</body>
+
+</br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+            <div class="panel panel-primary wizard" data-index="0">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <ul class="wizard-menu">
+                            <li class="active">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                <div class="title">PROFILE</div>
+                            </li>
+
+                            <li>
+                                <span class="glyphicon  glyphicon-cog" aria-hidden="true"></span>
+                                <div class="title">DEFINITIONS</div>
+                            </li>
+
+                            <li>
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                <div class="title">FAVOURITES</div>
+                            </li>
+
+                        </ul>
+
+                    </h3>
+                </div>
+                <div class="panel-body content">
+                    <div class="step">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <a href="#">
+                                    <img data-src="holder.js/100%x180" alt="100%x180" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU1MmJjMDdhMjggdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTUyYmMwN2EyOCI+PHJlY3Qgd2lkdGg9IjE3MSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI2MSIgeT0iOTQuNSI+MTcxeDE4MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div><strong>NAME</strong> Somename</div>
+                                <div><strong>Email</strong> username@test.com</div>
+                                <div><strong>Password</strong> ******</div>
+                            </div>
+
+                        </div>
+                    </div>
+                        <div class="step">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item active">
+                                    DEFINITIONS
+                                </a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item active">
+                                   FAVOURITES
+                                </a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer tar">
+                        <ul class="menu-controls">
+                            <li id="prev" style="display: none;">
+                                <button type="button" onclick="prev()" class="btn btn-primary">PREV</button>
+                            </li>
+                            <li id="next">
+                                <button type="button" onclick="next()" class="btn btn-primary">NEXT</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

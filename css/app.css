@@ -1,0 +1,73 @@
+body
+{
+	background-color: #222222;
+}
+
+.wizard
+{
+	overflow-x:hidden;
+}
+
+
+.wizard .content{
+	min-height: 300px;
+	padding:0px;
+	position: relative;
+left: 0px;
+	 -webkit-transition: all ease 0.6s;
+	    -moz-transition: all ease 0.6s;
+	    -o-transition:   all ease 0.6s;
+	    transition:      all ease 0.6s;
+}
+.wizard .step{
+	padding: 15px;
+	height: 100%;
+	display: inline-block;
+	  margin-right: -4px;
+
+}
+/*WIZARD MENU*/
+.wizard-menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.wizard-menu li{
+	text-align: center;
+	display: inline-block;
+    padding:5px 20px;
+   border-right: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.wizard-menu li span{
+font-size: 18px;
+}
+/*set the active*/
+
+.wizard-menu .active {
+	color: #222222;
+}
+.wizard-menu li .title{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+/*MENU CONTROLS*/
+
+.menu-controls{
+	margin-right: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.menu-controls li{
+	padding-right: 5px;
+	display: inline-block;
+}
+
+/*UTILS*/
+
+.tar{
+	text-align: right;;
+}

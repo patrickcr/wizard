@@ -1,0 +1,17 @@
+{
+  "name": "wizard",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "etern <patrick.reis.cabral@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
